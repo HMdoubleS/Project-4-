@@ -796,8 +796,8 @@ h4 {
     color: #cccccc!important;
 }
 
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
+.ltc-dark-slate-blue {
+    color: #364577!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -824,6 +824,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1032,10 +1033,20 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .row-no-gutters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .row-no-gutters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
