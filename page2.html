@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-    <title>Contact</title>
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+    <title>page2</title>
 
     
 <!-- Analytics -->
@@ -43,7 +48,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="page2.html">page2</a>
 					</li>
 				</ul>
 			</div>
@@ -76,41 +81,36 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label aria-label="name">
+						<label>
 							Name
 						</label>
-						<input id="name" aria-label="name" class="form-control" required />
+						<input id="name" class="form-control" required />
 					</div>
-
 					<div class="form-group">
-						<label aria-label="email">
+						<label>
 							Email
 						</label>
-						<input id="email" aria-label="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" required />
 					</div>
-
 					<div class="form-group">
-						<label aria-label="how you found me">
+						<label>
 							How did you find me?
 						</label>
-						<input aria-label="how you found me" class="form-control" required id="input_504" />
+						<input class="form-control" type="email" required id="input_504" />
 					</div>
-
 					<div class="form-group">
-						<label aria-label="what are your needs">
+						<label>
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
-						</label>
-						<textarea aria-label="what are your needs" id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-
-					<button class="bloc-button btn btn-lg btn-block cta-hero bgc-dark-slate-blue" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Let's go Mike
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
 				<p>
-					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-dark-slate-blue" href="index.html"><strong>other page</strong</a>.
+					mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="index.html">other page</a>.
 				</p>
 			</div>
 		</div>
@@ -134,22 +134,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="twitter" class="social" href="https://twitter.com"><span class="fa fa-twitter icon-lg"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="facebook" class="social" href="https://www.facebook.com"><span class="fa fa-facebook icon-lg"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="dribble" class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-lg"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="instagram" class="social" href="https://www.instagram.com"><span class="fa fa-instagram icon-lg"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -162,10 +162,6 @@
 </div>
 <!-- Main container END -->
     
-<script src="./js/jquery-2.1.0.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/blocs.min.js"></script>
-<script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js"></script>
+
 </body>
 </html>

@@ -32,6 +32,9 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -63,6 +66,9 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
+    -webkit-background-size: auto!important;
+    -moz-background-size: auto!important;
+    -o-background-size: auto!important;
     background-size: auto!important;
 }
 
@@ -775,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fff!important;
+    color: #364577!important;
 }
 
 .btn-atomic-tangerine {
@@ -796,8 +802,8 @@ h4 {
     color: #cccccc!important;
 }
 
-.ltc-dark-slate-blue {
-    color: #364577!important;
+.ltc-atomic-tangerine {
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -818,13 +824,12 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.webp");
+    background-image: url("img/atlanta%20made%20sign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.webp");
+    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
-
 
 @media (max-width: 1024px) {
     .bloc {
@@ -959,6 +964,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
+        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
@@ -1033,20 +1039,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .row-no-gutters {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
-    .row-no-gutters {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
     }
 }
