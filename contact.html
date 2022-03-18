@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="seo, google, website, internet, web design, design agency, logo design atlanta">
-    <meta name="description" content="Contact Mike for more information!">
+    <meta name="description" content="I'm Mike and your should hire me to build your website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin>
+    <link rel="preload" as="font" type="font/woff" href="fonts/et-line.woff" crossorigin>
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet preload" as="style" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet preload" as="style" type="text/css" href="style.css">
+	<link rel="stylesheet preload" as="style" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet preload" as="style" type="text/css" href="css/et-line.min.css">
 	
-    <title>Contact</title>
+    <title>Contact Mike</title>
 
     
 <!-- Analytics -->
@@ -22,17 +23,21 @@
 </head>
 <body>
 <!-- Main container -->
-<main class="page-container">
+<main>
+<div class="page-container">
     
 <!-- bloc-0 -->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.webp" alt="logo, seo, google, website, internet, web design, design agency" height="40" /></a>
-			<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/atlanta%20web%20design%20logo2.webp" alt="logo, seo, google, website, internet, web design, design agency" height="40" width="214"/>
+					<span class="navbar-brand-logo">logo</span>
+				</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-			</button>
+				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -73,29 +78,30 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
 					<div class="form-group">
-						<label aria-label="name">
+						<label for="name">
 							Name
 						</label>
-						<input id="name" class="form-control" required />
+						<input name="name" id="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="email">
+						<label for="email">
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input name="email" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label aria-label="how you found me">
+						<label for="input_504">
 							How did you find me?
 						</label>
-						<input class="form-control" type="input" required id="input_504" />
+						<input name="input_504" class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label aria-label="what are your needs">
+						<label for="message">
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-dark-slate-blue" type="submit">
 						Let's go Mike
@@ -113,7 +119,8 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="contact.html" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span>
+	<span class="scroll_up">scroll to top</span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -128,38 +135,53 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="twitter" class="social" href="https://twitter.com"><span class="fa fa-twitter icon-lg"></span></a>
+							<a class="social" href="https://twitter.com">
+								<span class="fa fa-twitter icon-md"></span>
+								<span class="brand-icons">twitter</span>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="facebook" class="social" href="https://www.facebook.com"><span class="fa fa-facebook icon-lg"></span></a>
+							<a class="social" href="https://facebook.com">
+								<span class="fa fa-facebook icon-md"></span>
+								<span class="brand-icons">facebook</span>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="dribbble" class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-lg"></span></a>
+							<a class="social" href="https://dribbble.com">
+								<span class="fa fa-dribbble icon-md"></span>
+								<span class="brand-icons">dribbble</span>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="instagram" class="social" href="https://www.instagram.com"><span class="fa fa-instagram icon-lg"></span></a>
+							<a class="social" href="https://instagram.com">
+								<span class="fa fa-instagram icon-md"></span>
+								<span class="brand-icons">instagram</span>
+							</a>
 						</div>
 					</div>
-				</div>	
+
+					<div class="keywords" style="color:#364577;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </footer>
 <!-- Footer - bloc-8 END -->
 
+</div>
 </main>
 <!-- Main container END -->
-<script src="./js/jquery-2.1.0.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/blocs.js"></script>
-<script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js"></script>   
+<script src="./js/jquery-2.1.0.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/blocs.min.js"></script>
+<script src="./js/gmaps.min.js"></script>     
+<script src="./js/jquery.touchSwipe.min.js"></script>     
 
 </body>
 </html>
