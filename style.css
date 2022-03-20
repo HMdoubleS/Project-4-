@@ -770,7 +770,10 @@ h4 {
     border-color: #364577!important;
 }
 
-
+#brand {
+    width: 214.44px;
+    height: 40px;
+}
 
 #create {
     height: 116px; 
@@ -1089,7 +1092,6 @@ h4 {
     
     #create,
     #quote,
-    #brand,
     #designed {
         width:100%;
         height: auto;
